@@ -1,0 +1,13 @@
+# pod
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod2
+  labels:
+     type: webserver
+     app: myappap
+     env: dev
+spec:
+  containers:
+    - name: c1
+      image: nginx
